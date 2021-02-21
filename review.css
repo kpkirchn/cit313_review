@@ -1,6 +1,6 @@
 * { box-sizing: border-box;  margin: 0; }
 nav a:link { color: #000000; }
-
+nav a:visited { color: #000000; }
 
 nav { 
      height: 40px;
@@ -25,9 +25,9 @@ nav a { text-decoration: none;
 section { float: left; width: 25%; padding-left: 1em; padding-right: 1em; margin-left: 40px; margin-top: 15px;}
 
  #utah {background-image: url(bridal.jpg); background-repeat: no-repeat; background-size: cover;}
- #me {background-image: url(me.jpg); width: 100px; height: 100px; background-size: contain; background-repeat: no-repeat; }
+ #me {background-image: url(me.jpg); width: 100px; height: 100px; background-size: cover; background-repeat: no-repeat; }
  
- .about {margin-top: -20px;}
+ .about {margin-top: 20px;}
  .box {
 	 float: left;
 	 border: 1px solid blue;
