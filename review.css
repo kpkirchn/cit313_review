@@ -1,0 +1,41 @@
+* { box-sizing: border-box;  margin: 0; }
+nav a:link { color: #000000; }
+
+
+nav { 
+     height: 40px;
+	 min-width: 40em;
+	 width: 100%;
+     background-color: #ADD8E6;
+	 font-size: 1.5em;
+
+}
+	
+nav ul { list-style-type: none;
+         text-align: center;
+}
+
+nav a { text-decoration: none;
+		font-weight: bold;
+		padding: 40px;
+		display: inline;
+		padding-top: 10px;
+
+}
+section { float: left; width: 25%; padding-left: 1em; padding-right: 1em; margin-left: 40px; margin-top: 15px;}
+
+ #utah {background-image: url(bridal.jpg); background-repeat: no-repeat; background-size: cover;}
+ #me {background-image: url(me.jpg); width: 100px; height: 100px; background-size: contain; background-repeat: no-repeat; }
+ 
+ .about {margin-top: -20px;}
+ .box {
+	 float: left;
+	 border: 1px solid blue;
+	 width: 200px;
+	 height: 200px;
+	 background-color: #0000FF;
+	 color: #FFFFFF;
+	 box-sizing: border-box;
+	 text-align:center;
+
+ }
